@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^12.8.3",
     "antd": "^4.16.7",
     "axios": "^0.21.1",
-    "better-scroll": "^2.4.1",
+    "better-scroll": "^1.15.2",
     "connected-react-router": "^6.9.1",
     "dva-core": "^2.0.4",
     "react": "^17.0.2",
