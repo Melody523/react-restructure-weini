@@ -11,11 +11,6 @@ const initialState = {
 
 export default (state = initialState, action = {}) => {
   switch (action.type) {
-    case ActionType.IS_ACTIVE:
-      return state = {
-        ...state,
-        isActive: action.isActive
-      };
     case ActionType.HOT_LIST:
       return state = {
         ...state,

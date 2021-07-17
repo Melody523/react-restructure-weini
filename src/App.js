@@ -1,12 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
-import Home from './views/home/Home';
+import React from 'react';
+
+import router from '@/router/index';
+
+import { Provider } from 'react-redux';
+import store from './store/store'
 
 
 function App() {
   return (
     <div>
-      <Home />
+      <Provider store={store}>
+        {router}
+      </Provider>
     </div>
   );
 }

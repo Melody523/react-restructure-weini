@@ -1,7 +1,6 @@
 import React, { PureComponent } from 'react';
 import { connect } from 'react-redux';
 import './Home.less';
-import { throttle } from 'utils/tools'
 
 import HomeNavBar from './childComps/HomeNavBar'
 import HomeSwiper from './childComps/HomeSwiper';

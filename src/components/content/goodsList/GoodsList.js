@@ -3,7 +3,6 @@ import './GoodsList.less';
 import {deliveryTypeFilter} from 'utils/deliveryTypeFilter';
 
 function GoodsList(props) {
-  console.log(props);
   function toPage(goodsNo) {
     props.history.push('/goodsDetail/' + goodsNo);
   }
